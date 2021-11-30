@@ -53,6 +53,8 @@ public class MainActivity extends AppCompatActivity {
             List<Book> books = bookManager.getBookList();
             Log.d("getbooks", books.toString());
             Toast.makeText(this, books.toString(), Toast.LENGTH_SHORT).show();
+        } else if (view.getId() == R.id.btn3) {
+            Toast.makeText(this, "93+938="+bookManager.addNum(93,938), Toast.LENGTH_SHORT).show();
         }
     }
 }

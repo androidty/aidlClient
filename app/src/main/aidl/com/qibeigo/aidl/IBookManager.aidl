@@ -11,5 +11,6 @@ interface IBookManager {
     String getName();
     void addBook(in Book book);
     List<Book> getBookList();
+    int addNum(int num1,int num2);
 
 }
